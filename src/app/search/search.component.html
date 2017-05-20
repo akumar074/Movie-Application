@@ -1,0 +1,11 @@
+<md-input-container >
+                <input class="searchbox" #movie mdInput placeholder="Search" [mdAutocomplete]="auto" 
+                (keyup)="onKeyUp($event)">                
+                <md-autocomplete #auto="mdAutocomplete" >
+                <md-option *ngFor="let result of results" [value]='result.Title'>
+                  {{ result.Title }}
+                </md-option>
+                </md-autocomplete>
+                </md-input-container> 
+                <button md-raised-button (click)='onClick(movie.value)'>
+                <i class="material-icons" >search</i></button>

@@ -1,0 +1,28 @@
+h3,h4 {
+    width:100%;
+    }
+.example-card {
+    width:290px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 20px;
+    margin-left: 15px;
+    }   
+.action {
+    margin-left:50px;
+    }
+.btn-view { 
+    margin-left:30px !important;
+    }
+.palletes {
+    margin-top:30px;
+    }
+img {
+    height:360px;
+    width:270px;
+    margin:0px;
+    padding:0 auto;
+    }
+.col-md-3 {
+    padding:0px;
+    }

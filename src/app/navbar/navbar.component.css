@@ -1,0 +1,8 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+md-toolbar {
+    box-shadow: 1px 3px 19px 1px black;
+    }
+.logo {
+    font-size: 30px;
+    text-shadow: 0px 7px 20px black;
+    }

@@ -1,0 +1,17 @@
+<div class="container" ><div class="row ">
+<div class="col-md-3 col-xs-12 palletes"*ngFor="let result of results">
+<md-card class="example-card">
+<md-card-header>
+<md-card-title>{{result.Title}}</md-card-title>
+<md-card-subtitle>{{result.Year}}</md-card-subtitle>
+</md-card-header>
+<img *ngIf="result.Poster!='N/A'" md-card-image src="{{result.Poster}}" alt="{{result.Title}}">
+<img *ngIf="result.Poster=='N/A'" md-card-image 
+ src="http://mexicannationalera.weebly.com/uploads/1/4/6/4/14640612/1052362.jpg?0" alt="{{result.Title}}">  
+<md-card-actions class="action">
+<app-like></app-like> Like
+<button md-button class="btn-view">View</button>
+</md-card-actions>
+</md-card>
+</div></div>
+</div>
